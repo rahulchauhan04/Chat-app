@@ -26,3 +26,7 @@ Make sure you have the following installed:
    ```bash
    git clone https://github.com/rahulchauhan04/Chat-app.git
    cd Chat-app
+
+2.	Install the dependencies:
+   
+   npm install
