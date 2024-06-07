@@ -78,7 +78,3 @@ Chat-App/
 ## Authors
 
 - **Rahul Chauhan** - *Initial work* - [rahulchauhan04](https://github.com/rahulchauhan04)
-
-## License
-
-This project is licensed under the ISC License - see the [LICENSE.md](LICENSE.md) file for details.
