@@ -1,6 +1,6 @@
 # Chat App
 
-![Chat App Screenshot]([https://github.com/rahulchauhan04/Chat-app/raw/main/frontend/chatapp.png.png](https://github.com/rahulchauhan04/Chat-app/blob/main/frontend/chatapp.png))
+![Chat App Screenshot](https://github.com/rahulchauhan04/Chat-app/blob/main/frontend/chatapp.png)
 
 This is a simple chat application built using Node.js, Express, and Socket.io. It allows users to join a chatroom and send messages to each other in real-time.
 
