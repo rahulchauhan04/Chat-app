@@ -4,8 +4,17 @@ const socketIo = require('socket.io');
 const socketIoServer = socketIo.Server;
 
 const app = express();
-const httpVersionOfApp = http.createServer(app);
+app.use(express.static('frontend'));
 
-app.get('/', (req, res) => res.send('Hello World!'));
+const httpVersionOfApp = http.createServer(app);
+const io = new socketIoServer(httpVersionOfApp);
+
+io.on('connection', (socket) => {
+     socket.io('sending message', (data) => {
+          io.emit('io spreading message', data);
+     });
+});
+
+// app.get('/', (req, res) => res.send('Hello World!'));
 
 app.listen(3000);
